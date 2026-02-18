@@ -126,7 +126,7 @@ h3 {
     margin-bottom: .5rem;
 }
 
-#offerings {
+#offerings > section {
     background: var(--olive-green);
     color: white;
     padding: 1rem;
