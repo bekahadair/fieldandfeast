@@ -126,12 +126,24 @@ h3 {
     margin-bottom: .5rem;
 }
 
-#offerings > section {
+#offerings {
     background: var(--olive-green);
     color: white;
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: 1rem;
+}
+
+#gallery {
+    display: grid;
+    gap: 1rem;
+}
+
+img {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px;
 }
 /* MEDIA QUERY (medium) */
 
