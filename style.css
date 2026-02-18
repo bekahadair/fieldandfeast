@@ -92,6 +92,27 @@ h1 {
     font-style: italic;
 }
 
+nav {
+    background: var(--champagne-gold);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--midnight-blue);
+    font-weight: 600;
+}
+
+main {
+    padding: 2rem 1rem;
+}
+
 /* MEDIA QUERY (medium) */
 
 /* MEDIA QUERY (large) */
