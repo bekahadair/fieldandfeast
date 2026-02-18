@@ -125,6 +125,14 @@ h2 {
 h3 {
     margin-bottom: .5rem;
 }
+
+#offerings {
+    background: var(--olive-green);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
 /* MEDIA QUERY (medium) */
 
 /* MEDIA QUERY (large) */
