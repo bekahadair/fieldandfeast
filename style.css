@@ -137,12 +137,19 @@ h3 {
     color: white;
     padding: 1.5rem;
     border-radius: 8px;
+    box-shadow: 0 4px 8px;
     margin-bottom: 1.5rem;
 }
 
 .offerings-grid {
     display: grid;
     gap: 1.5rem;
+}
+
+.offerings-grid ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-top: 1rem;
 }
 
 #gallery {
