@@ -113,11 +113,6 @@ main {
     padding: 2rem 1rem;
 }
 
-img {
-    max-width: 100%;
-    display: block;
-}
-
 section {
     margin-bottom: 3rem;
 }
@@ -134,21 +129,21 @@ h3 {
 #offerings > section {
     background: var(--olive-green);
     color: white;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 8px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 #gallery {
     display: grid;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 figure {
     background: white;
-    border-radius: 10px;
+    border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 5px 10px;
+    box-shadow: 0 4px 8px;
 }
 
 figcaption {
@@ -163,7 +158,7 @@ figcaption {
     color: white;
     text-align: center;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 6px;
     text-decoration: none;
 }
 
@@ -185,6 +180,10 @@ footer a {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
+    }
+
+    #offerings > section:last-of-type {
+        grid-column: span 2;
     }
 
     #gallery {
