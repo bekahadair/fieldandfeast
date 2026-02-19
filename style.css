@@ -109,6 +109,12 @@ nav a {
     font-weight: 600;
 }
 
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 main {
     padding: 2rem 1rem;
 }
@@ -193,7 +199,7 @@ footer a {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .offerings-grid section:last-of-type {
+    .offerings-grid > section:last-of-type {
         grid-column: span 2;
     }
 
