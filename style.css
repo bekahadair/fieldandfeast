@@ -175,8 +175,6 @@ figure {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px;
-    display: flex;
-    flex-direction: column;
 }
 
 figcaption {
