@@ -128,6 +128,10 @@ h2 {
     font-size: 1.8rem;
 }
 
+#offerings {
+    margin-bottom: 4rem;
+}
+
 .offerings-grid > section {
     background: var(--olive-green);
     color: white;
@@ -140,6 +144,7 @@ h2 {
 .offerings-grid {
     display: grid;
     gap: 1.5rem;
+    align-items: start;
 }
 
 .offerings-grid ul {
@@ -153,7 +158,7 @@ h2 {
 }
 
 #gallery {
-    gap: 1.5rem;
+    margin-top: 3rem;
 }
 
 .gallery-grid {
@@ -166,12 +171,15 @@ figure {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px;
+    display: flex;
+    flex-direction: column;
 }
 
 figcaption {
     padding: .75rem;
     font-style: italic;
     text-align: center;
+    margin-top: auto;
 }
 
 .gallery-link a {
