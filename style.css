@@ -197,10 +197,6 @@ footer a {
         grid-column: span 2;
     }
 
-    #gallery {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .gallery-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -212,7 +208,7 @@ footer a {
         font-size: 3rem;
     }
 
-    #gallery {
+    .gallery-grid {
         grid-template-columns: repeat(3, 1fr);
     }
 
