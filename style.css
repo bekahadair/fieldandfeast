@@ -143,6 +143,11 @@ h3 {
     gap: 1.5rem;
 }
 
+.gallery-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
 figure {
     background: white;
     border-radius: 8px;
@@ -193,6 +198,10 @@ footer a {
     }
 
     #gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
