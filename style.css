@@ -186,6 +186,11 @@ figcaption {
     margin-top: auto;
 }
 
+.gallery-link {
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
 .gallery-link a {
     display: block;
     background: var(--olive-green);
