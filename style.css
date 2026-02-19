@@ -145,6 +145,34 @@ figure {
     overflow: hidden;
     box-shadow: 0 5px 10px;
 }
+
+figcaption {
+    padding: .75rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.gallery-link a {
+    display: block;
+    background: var(--olive-green);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer {
+    background: var(--midnight-blue);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+footer a {
+    color: var(--champagne-gold);
+    text-decoration: none;
+}
 /* MEDIA QUERY (medium) */
 
 /* MEDIA QUERY (large) */
